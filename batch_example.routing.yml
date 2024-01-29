@@ -1,0 +1,17 @@
+batch_example.update_form:
+  path: '/batch-example/update'
+  defaults:
+    _form: '\Drupal\batch_example\Form\UpdateNodeForm'
+    _title: 'Update Node Form'
+  requirements:
+    _permission: 'access content'
+
+batch_example.update_node:
+  path: '/update-node-data/{nojs}'
+  defaults:
+    _controller: '\Drupal\batch_example\Controller\BatchExampleController::updateNodeData'
+    _title: 'Batch Example to update node data'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
