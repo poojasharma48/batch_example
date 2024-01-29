@@ -3,6 +3,8 @@ Batch example
 
 Batch example module allows to alter the Drupal core's batch executing process
 worflow so that run batch process without redirect to batch window to itself.
+In this example node data 'll updated by batch process on the basis of content
+type selected in the form by the user.
 
 INSTALLATION
 ------------
