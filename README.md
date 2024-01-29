@@ -8,7 +8,8 @@ type selected in the form by the user.
 
 INSTALLATION
 ------------
-
+ * Download the module & extract the zip folder, then rename folder
+   from batch_example_main to batch_example.
  * Install the Batch example as you would normally install a custom
    Drupal module.
 
